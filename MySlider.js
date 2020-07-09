@@ -83,7 +83,7 @@ export default class SimpleSlider extends React.Component {
           	</ul>
           	<div className="btn-link">
           		<button className="Project-btn btn btn-primary">GitHub</button>
-          		<button className="Project-btn btn btn-primary">Перейти к проекту!</button>
+          		<button onClick={() => window.location.assign('/todolist')} className="Project-btn btn btn-primary">Перейти к проекту!</button>
           	</div>
           </div>
           <div className="Project">
