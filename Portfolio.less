@@ -4,7 +4,10 @@
 
 
 *{
-	background-size: #ccc;	
+
+	body{
+		background-color: #dae3e7;
+	}
 	color: @text-color;
 	h2, h3, h4 {
 		color: @title-color;
@@ -14,7 +17,7 @@
 	}
 }
 
-.line {
+.line, footer {
 	display: block;
 	width: 100%;
 	height: 1rem;
@@ -95,3 +98,17 @@ section {
 		text-decoration: underline;
 	}
 }
+.ed {
+	margin-bottom: 1rem;
+	&-date {
+		margin-right: 5px;
+		text-decoration: underline;
+	}
+	&-text {
+		text-align: justify;
+	}
+	&-last {
+		margin-bottom: 0;
+	}
+}
+

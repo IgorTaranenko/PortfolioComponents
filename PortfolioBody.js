@@ -5,6 +5,7 @@ import AboutMe from './AboutMe.js'
 import Contacts from './Contacts.js'
 import Skills from './Skills.js'
 import Projects from './Projects.js'
+import Education from './Education.js'
 
 function PortfolioBody () {
 	return(
@@ -18,6 +19,7 @@ function PortfolioBody () {
         <div className="col-md-4">
           <Contacts />
           <Skills />
+          <Education />
         </div>
    	 	</div>
    </div>

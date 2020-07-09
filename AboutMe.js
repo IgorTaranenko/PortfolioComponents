@@ -31,7 +31,7 @@ function AboutMe () {
   		помощи которой создал несколько собственных учебных проектов, с которыми можно ознакомиться <a href="/">ниже</a>.
   	</p>
   	<p>
-  		В данный момент ищу <span className="work">удалённую работу</span> на позицию <strong>Junior Front (React) Developer</strong> в 
+  		В данный момент ищу <span className="work">удалённую работу</span> на позицию <strong>Junior Frontend (React) Developer</strong> в 
   		компании, где планируюю построить долгую и успешную карьеру!
   	</p>
   </section>

@@ -1,6 +1,8 @@
 * {
-  background-size: #ccc;
   color: #000000;
+}
+* body {
+  background-color: #dae3e7;
 }
 * h2,
 * h3,
@@ -10,7 +12,8 @@
 * h3 {
   margin-bottom: 1rem;
 }
-.line {
+.line,
+footer {
   display: block;
   width: 100%;
   height: 1rem;
@@ -84,4 +87,17 @@ section {
 }
 .Skill:hover h4 {
   text-decoration: underline;
+}
+.ed {
+  margin-bottom: 1rem;
+}
+.ed-date {
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.ed-text {
+  text-align: justify;
+}
+.ed-last {
+  margin-bottom: 0;
 }
