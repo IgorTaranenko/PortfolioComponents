@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Portfolio.css';
+import 'animate.css/animate.css'
 
 function Skills () {
 	return (

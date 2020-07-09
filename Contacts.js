@@ -7,19 +7,19 @@ function Contacts () {
   <section>
   	<h3>Контакты</h3>
   	<div className="contact">
-  		<span className="contact-title">Город:</span>
+  		<span className="myTitle">Город:</span>
   		<span>Желтые Воды, Украина</span>
   	</div>
     <div className="contact">
-      <span className="contact-title">Телефон:</span>
+      <span className="myTitle">Телефон:</span>
       <span>+380 99 61 969 61</span>
     </div>
   	<div className="contact">
-  		<span className="contact-title">Эл. почта: </span>
+  		<span className="myTitle">Эл. почта: </span>
   		<a href="/">igorgronthebest@gmail.com</a>
   	</div>
   	<div className="contact">
-  		<span className="contact-title">GitHub:</span>
+  		<span className="myTitle">GitHub:</span>
   		<a href="https://github.com/IgorTaranenko/">Git</a>
   	</div>
   </section>

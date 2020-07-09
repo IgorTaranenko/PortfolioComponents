@@ -4,9 +4,13 @@
 * body {
   background-color: #dae3e7;
 }
+* p {
+  margin-bottom: 0.8rem;
+}
 * h2,
 * h3,
-* h4 {
+* h4,
+* h5 {
   color: #49515a;
 }
 * h3 {
@@ -51,7 +55,7 @@ section {
 .contact {
   margin-bottom: 4px;
 }
-.contact-title {
+myTitle {
   margin-right: 6px;
   text-decoration: underline;
 }
@@ -100,4 +104,66 @@ section {
 }
 .ed-last {
   margin-bottom: 0;
+}
+.Project {
+  padding: 1rem;
+}
+.Project p {
+  text-align: justify;
+}
+.Project h4 {
+  color: black;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  text-align: center;
+}
+.Project h5 {
+  margin-bottom: 3px;
+}
+.Project-btn {
+  display: inline-block;
+  margin: 0 5px;
+}
+.btn-link {
+  text-align: center;
+}
+.nextArrow {
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  left: 99.9%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+  background: url(NextArr.png) center no-repeat;
+  background-size: cover;
+}
+.prevArrow {
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  left: -3.5%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+  background: url(PrewArr.png) center no-repeat;
+  background-size: cover;
 }

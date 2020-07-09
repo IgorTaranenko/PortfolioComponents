@@ -4,12 +4,14 @@
 
 
 *{
-
 	body{
 		background-color: #dae3e7;
 	}
 	color: @text-color;
-	h2, h3, h4 {
+	p {
+		margin-bottom: 0.8rem;
+	}
+	h2, h3, h4, h5 {
 		color: @title-color;
 	}
 	h3 {
@@ -54,11 +56,11 @@ section {
 }
 .contact {
 	margin-bottom: 4px;
-	&-title {
+}
+myTitle {
 		margin-right: 6px;
 		text-decoration: underline;
 	}
-}
 .React {
 	font-size: 1.2rem;
 }
@@ -111,4 +113,63 @@ section {
 		margin-bottom: 0;
 	}
 }
-
+.Project {
+	padding: 1rem;
+	p {
+		text-align: justify;
+	}
+	h4{
+		color: black;
+		font-size: 1.8rem;
+		text-decoration: underline;
+		text-align: center;
+	}
+	h5{
+		margin-bottom: 3px;
+	}
+	&-btn {
+  display: inline-block;
+  margin: 0 5px;
+	}
+}
+.btn-link {
+	text-align: center;
+}
+.nextArrow {
+	position: absolute;
+	display: block;
+	height: 25px;
+	width: 25px;
+	line-height: 0px;
+	font-size: 0px;
+	cursor: pointer;
+	background: transparent;
+	color: transparent;
+	top: 50%;
+	left: 99.9%;
+	transform: translate(0, -50%);
+	padding: 0;
+	border: none;
+	outline: none;
+	background: url(./NextArr.png) center no-repeat;
+	background-size: cover;
+	}	
+.prevArrow {
+	position: absolute;
+	display: block;
+	height: 25px;
+	width: 25px;
+	line-height: 0px;
+	font-size: 0px;
+	cursor: pointer;
+	background: transparent;
+	color: transparent;
+	top: 50%;
+	left: -3.5%;
+	transform: translate(0, -50%);
+	padding: 0;
+	border: none;
+	outline: none;
+	background: url(./PrewArr.png) center no-repeat;
+	background-size: cover;
+	}	
