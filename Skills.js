@@ -5,7 +5,7 @@ import 'animate.css/animate.css'
 
 function Skills () {
 	return (
-  <section className="Skills">
+  <section className="Portfolio-section Skills">
   	<h3>Навыки</h3>
   	<p>Свои навыки я оцениваю самостоятельно по пятибальной шкале, опираясь на среднестатистические требования к
   	<strong> Junior Developer-ам:</strong></p>

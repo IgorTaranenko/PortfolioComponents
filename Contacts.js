@@ -4,7 +4,7 @@ import './Portfolio.css'
 
 function Contacts () {
 	return(
-  <section>
+  <section className="Portfolio-section">
   	<h3>Контакты</h3>
   	<div className="contact">
   		<span className="myTitle">Город:</span>

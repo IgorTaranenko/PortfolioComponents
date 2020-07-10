@@ -4,7 +4,7 @@ import './Portfolio.css'
 
 function AboutMe () {
 	return(
-  <section className="AboutMe">
+  <section className="Portfolio-section AboutMe">
   	<h3>Обо мне</h3>
   	<p>Привет! Меня зовут Игорь, мне 22 года. Я начинающий <strong>Frontend разработчик</strong>.</p>
   	<p>
@@ -23,12 +23,12 @@ function AboutMe () {
   		повернул в сторону <strong>Web программирования</strong>, а именно в сторону <strong>Frontend-а и JavaScript</strong>.
   		Изучение <strong>JavaScript</strong> я начал с основ языка, а так же с <strong>jQuery</strong>. После этого я прошел 
   		курс <strong>"Веб-разработчик 10.0"</strong> от <strong>Академии Верстки</strong>, где я научился правильно и адаптивно 
-  		верстать сайты, стилизировать элементы, работать <strong>GitHub</strong>, а также подключать к сайту 
+  		верстать сайты, стилизировать элементы, работать с <strong>GitHub</strong>, а также подключать к сайту 
   		сторонние элементы (слайдеры, аккордеоны и т.п). 
   	</p>
   	<p>
   		После прохождения курса, я начал самостоятельное изучение библиотеки <strong className="React">React.JS</strong>, при
-  		помощи которой создал несколько собственных учебных проектов, с которыми можно ознакомиться <a href="/">ниже</a>.
+  		помощи которой создал несколько собственных учебных проектов, с которыми можно ознакомиться <a href="#Projects">ниже</a>.
   	</p>
   	<p>
   		В данный момент ищу <span className="work">удалённую работу</span> на позицию <strong>Junior Frontend (React) Developer</strong> в 

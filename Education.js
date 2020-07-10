@@ -4,7 +4,7 @@ import './Portfolio.css'
 
 function Education () {
 	 return(
-	 	<section className="">
+	 	<section className="Portfolio-section">
 	 		 <h3>Образование</h3>
 	 		 <div className="ed">
 	 		 	<span className="ed-date">2015-2019:</span>

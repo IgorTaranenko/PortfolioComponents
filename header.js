@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header () {
 	return(
-	 <header>
+	 <header className="Portfolio-header">
 	 	<div className="line"></div>
 	 	<div className="header-block">
    	 <div className="container">
