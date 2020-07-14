@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {NavLink} from 'react-router-dom'
 import './Portfolio.css';
 import MySlider from './MySlider.js';
 
