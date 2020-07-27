@@ -88,14 +88,41 @@ export default class SimpleSlider extends React.Component {
           </div>
           <div className="Project">
           	<h4>Air Tickets app</h4>
-          	<p></p>
+            <h5>Описание</h5>
+          	<p>
+              Приложение, имитирующее сайт продажи авиабилетов. Состоит из десятка авиабилетов, которые фильтруются по определенным параметрам. 
+              В проекте используется <strong>bootstrap сетка</strong> и препроцессор <strong>LESS</strong>.
+            </p>
+            <h5>Проблемы</h5>
+            <p>
+              Неправильная работа приложения при одновременно двух активных фильрах одного параметра (при выборе "без 
+              пересадок и 1 пересадка" билеты не отображаются)
+            </p>            
           	<div className="btn-link">
           		<button className="Project-btn btn btn-primary">GitHub</button>
-          		<button className="Project-btn btn btn-primary">Перейти к проекту!</button>
+          		<button onClick={() => window.location.assign('/airtickets')} className="Project-btn btn btn-primary">Перейти к проекту!</button>
           	</div>
+          </div>
+          <div className="Project">
+            <h4>Курсы валют</h4>
+            <h5>Описание:</h5>            
+            <p>
+              В этом проекте я научился работать с <strong>API</strong> сторонних сайтов, работать с полученным <strong>JSON</strong>, 
+              операторами <strong>fetch asinc await</strong>. 
+              Также изучил и на практике применил <strong>замыкания</strong>. Поработал с математическими операциями в <strong>JS</strong>,
+              преобразованием типов, а также с определенным количеством знаков после запятой.
+            </p>
+            <h5>Проблемы</h5>
+            <p>
+              Некорректная работа конвертора, из-за того что чисельное значение курса, полученное в JSON являет собой строку.
+              Для решения проблемы нужно было сначала преобразовать значение в число, а потом работать с ним.
+            </p>
+            <div className="btn-link">
+              <button className="Project-btn btn btn-primary">GitHub</button>
+              <button onClick={() => window.location.assign('/rates')} className="Project-btn btn btn-primary">Перейти к проекту!</button>
+            </div>
           </div>
         </Slider>
       
     );
-  }
-}
+  }}
