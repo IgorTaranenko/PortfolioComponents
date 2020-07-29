@@ -8,19 +8,19 @@ function Contacts () {
   	<h3>Контакты</h3>
   	<div className="contact">
   		<span className="myTitle">Город:</span>
-  		<span>Желтые Воды, Украина</span>
+  		<span className="ml-1 city">Желтые Воды (Днепр), Украина</span>
   	</div>
     <div className="contact">
       <span className="myTitle">Телефон:</span>
-      <span>+380 99 61 969 61</span>
+      <span className="ml-1">+380 99 61 969 61</span>
     </div>
   	<div className="contact">
   		<span className="myTitle">Эл. почта: </span>
-  		<a href="/">igorgronthebest@gmail.com</a>
+  		<a className="ml-1 email" href="/">igorgronthebest@gmail.com</a>
   	</div>
   	<div className="contact">
   		<span className="myTitle">GitHub:</span>
-  		<a href="https://github.com/IgorTaranenko/">Git</a>
+  		<a className="ml-1" href="https://github.com/IgorTaranenko/">github.com/IgorTaranenko/</a>
   	</div>
   </section>
 		)

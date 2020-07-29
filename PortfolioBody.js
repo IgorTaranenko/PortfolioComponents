@@ -11,12 +11,12 @@ function PortfolioBody () {
 	return(
    <div className="container">
    	 	<div className="row">
-        <div className="col-md-8">
+        <div className="col-lg-8 col-md-12">
          <AboutMe />
          <Projects />
 
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-12">
           <Contacts />
           <Skills />
           <Education />
