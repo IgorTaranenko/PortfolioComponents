@@ -55,8 +55,12 @@ export default class SimpleSlider extends React.Component {
           	 на кнопки
           	</p>
           	<div className="btn-link">
-          		<button className="Project-btn btn btn-primary">GitHub</button>
-          		<button className="Project-btn btn btn-primary">Перейти к проекту!</button>
+          		<form className="Project-btn" action="https://github.com/IgorTaranenko/igortaranenko.github.io" target="_blank">
+                <button className="Project-btn btn btn-primary">GitHub</button>
+              </form>
+          		<form className="Project-btn" action="https://igortaranenko.github.io/Practice/src/" target="_blank">
+                <button className="Project-btn btn btn-primary">Перейти к проекту!</button>
+              </form>              
           	</div>
           </div>
           <div className="Project">
@@ -82,7 +86,9 @@ export default class SimpleSlider extends React.Component {
           			стало возможно редактирование элемента по двойному клику)</li>
           	</ul>
           	<div className="btn-link">
-          		<button className="Project-btn btn btn-primary">GitHub</button>
+          		<form className="Project-btn" action="https://github.com/IgorTaranenko/ToDoListComponents" target="_blank">
+                <button className="Project-btn btn btn-primary">GitHub</button>
+              </form>
           		<button onClick={() => window.location.assign('/todolist')} className="Project-btn btn btn-primary">Перейти к проекту!</button>
           	</div>
           </div>
@@ -99,7 +105,9 @@ export default class SimpleSlider extends React.Component {
               пересадок и 1 пересадка" билеты не отображаются)
             </p>            
           	<div className="btn-link">
-          		<button className="Project-btn btn btn-primary">GitHub</button>
+          		<form className="Project-btn" action="https://github.com/IgorTaranenko/AirTicketsComponents" target="_blank">
+                <button className="Project-btn btn btn-primary">GitHub</button>
+              </form>
           		<button onClick={() => window.location.assign('/airtickets')} className="Project-btn btn btn-primary">Перейти к проекту!</button>
           	</div>
           </div>
@@ -110,15 +118,23 @@ export default class SimpleSlider extends React.Component {
               В этом проекте я научился работать с <strong>API</strong> сторонних сайтов, работать с полученным <strong>JSON</strong>, 
               операторами <strong>fetch asinc await</strong>. 
               Также изучил и на практике применил <strong>замыкания</strong>. Поработал с математическими операциями в <strong>JS</strong>,
-              преобразованием типов, а также с определенным количеством знаков после запятой.
+              преобразованиями типов, анимациями в <strong>CSS</strong>, <strong>промисами</strong>, а также с корректным отображением 
+              чисел с определенным количеством знаков после запятой.
             </p>
             <h5>Проблемы</h5>
-            <p>
-              Некорректная работа конвертора, из-за того что чисельное значение курса, полученное в JSON являет собой строку.
-              Для решения проблемы нужно было сначала преобразовать значение в число, а потом работать с ним.
-            </p>
+              <ul className="ml-3">
+                <li>
+                  Некорректная работа конвертора, из-за того что чисельное значение курса, полученное в JSON являет собой строку.
+                  Для решения проблемы нужно было сначала преобразовать значение в число, а потом работать с ним.
+                </li>
+                <li>
+                  Правильная работа всех переключателей в приложении. 
+                </li>
+              </ul>              
             <div className="btn-link">
-              <button className="Project-btn btn btn-primary">GitHub</button>
+              <form className="Project-btn" action="https://github.com/IgorTaranenko/ExchangeRate" target="_blank">
+                <button className="Project-btn btn btn-primary">GitHub</button>
+              </form>
               <button onClick={() => window.location.assign('/rates')} className="Project-btn btn btn-primary">Перейти к проекту!</button>
             </div>
           </div>
