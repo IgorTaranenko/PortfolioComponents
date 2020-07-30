@@ -16,8 +16,10 @@ function Header () {
    	 	  </div>	
    	 	  
    	 	  <div className="col-lg-4 col-md-12">
-   	 	    <h1>Игорь Тараненко</h1>
-   	 	    <h2>Junior Frontend Developer</h2>
+   	 	    <div className="wrapper wrapper-col flex-start">
+   	 	    	<h1>Игорь Тараненко</h1>
+   	 	    	<h2>Junior Frontend Developer</h2>
+   	 	    </div>
    	 	  </div>
 
    	 	</div>

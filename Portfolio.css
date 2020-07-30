@@ -27,7 +27,7 @@ footer {
   padding: 3rem 0;
 }
 .logo {
-  background: url(avatar.jpg) center no-repeat;
+  background: url(avatar2.jpg) center no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,6 +40,11 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.flex-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .Portfolio-header {
   width: 100%;
